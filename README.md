@@ -1,2 +1,2 @@
-# CUHKSZ-HPC-blog
-Blog for CUHKSZ HPC
+# fzhwenzhou.github.io
+My GitHub Pages. There might be something crazy.
