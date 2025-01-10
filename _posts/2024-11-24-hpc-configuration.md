@@ -13,7 +13,7 @@ tags:
 此文档仅此记录超算集训队的8台服务器集群的配置流程与踩坑经历，供后来人参考。以下的安装流程非常针对集群的配置，不一定具备普适性，敬请谅解。
 
 硬件配置：
-- 数量：8台
+- 数量：8台<span style='color:red'>（2025年1月10日更新：10台）</span>
 - 中央处理器：2 * 英特尔 至强 Silver 4210R （10核心 20线程）
 - 内存：96GB
 - 硬盘：三星SSD 2TB
@@ -75,6 +75,7 @@ sudo apt install -y openmpi-bin
 ```bash
 sudo apt install -y nvidia-driver-535-server
 ```
+<span style='color:red'>2025年1月10日更新：然后重启。</span>
 然后需要加载驱动：
 ```bash
 sudo modprobe nvidia
